@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "food-menu": "Food Menu",
+    "gallery": "Gallery",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to Happy Kids!",
+    "description": "We offer the best services for your children, including education, fun and healthy eating."
+  },
+  "aboutUs": {
+    "description": "Happy Kids is a play center where children can develop, learn and have fun. There is an opportunity to be with the child or leave it under supervision. You can eat deliciously with us or take food with you. Or even order takeout. On the child's birthday, you have the opportunity to visit us and celebrate it in our play center. We strive to create a safe and supportive environment for every child."
+  }
+}
