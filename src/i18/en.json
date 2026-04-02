@@ -14,5 +14,29 @@
   },
   "aboutUs": {
     "description": "Happy Kids is a play center where children can develop, learn and have fun. There is an opportunity to be with the child or leave it under supervision. You can eat deliciously with us or take food with you. Or even order takeout. On the child's birthday, you have the opportunity to visit us and celebrate it in our play center. We strive to create a safe and supportive environment for every child."
+  },
+  "services": {
+    "animationsAndShows": "🎈 Animation and Show Programs. Bright emotions for children and adults. Animators in costumes of favorite characters. Bubble show. Master classes. Disco for children",
+    "familyLeisure": "☕ Family Leisure. Ideal place for family relaxation. Comfortable tables near the play area. Opportunity to celebrate without full booking. Wi-Fi and comfort",
+    "gamingRoom": "🧸 Gaming Room. Ideal space for children to have fun under supervision. Mazes, slides, trampolines. Area for toddlers. Animators and entertainment programs. Hosting children's parties",
+    "partiesAndBDs": "🎂 Parties and Birthday Celebrations. We will make your party unforgettable! Birthday parties for children. Family celebrations. Themed parties. Banquet menu for any taste",
+    "restaurant": "🍽️ Restaurant for the Whole Family. Cozy atmosphere for parents to relax while children play. European and children's cuisine. Special children's menu. Desserts and drinks. Comfortable relaxation zone"
+  },
+  "foodMenu": {
+    "title": "Food Menu",
+    "description": "We provide a wide variety of delicious dishes for your children to enjoy. From classics to unique creations, we have something for everyone.",
+    "scanQr": "Scan the QR code to view the menu on your phone"
+  },
+  "contact": {
+    "emailLine": "Email address:",
+    "emailTooltip": "Click to send an email",
+    "workHoursTitle": "Working Hours",
+    "workHoursLine1": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "workHoursLine2": "Sat-Sun: Closed",
+    "phone1": "Phone number 1:",
+    "phone2": "Phone number 2:",
+    "callButton": "📞 Call",
+    "addressTitle": "Our address: Mukachevo, Voz'yednannya St. 17 \n Melisa store, 2nd floor",
+    "getDirections": "📍 Get Directions"
   }
 }

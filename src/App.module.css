@@ -8,4 +8,5 @@
   flex: 1;
   border-left: 2px solid #ccc;
   height: 100%;
+  overflow-y: auto;
 }
