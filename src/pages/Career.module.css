@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.careerContainer {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: darkviolet;
+  gap: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.textContainer {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.formContainer {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 12%;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.namePhone {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.namePhone label {
+  flex: 1;           /* both Name and Contact Number take equal space */
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: white;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  color: black;
+}
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  color: black;
+}
+.sendButton {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 300px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sendButton:hover {
+  background-color: black;
+  color: white;
+}

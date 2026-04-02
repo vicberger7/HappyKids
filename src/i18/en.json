@@ -31,12 +31,28 @@
     "emailLine": "Email address:",
     "emailTooltip": "Click to send an email",
     "workHoursTitle": "Working Hours",
-    "workHoursLine1": "Mon-Fri: 9:00 AM - 6:00 PM",
-    "workHoursLine2": "Sat-Sun: Closed",
+    "workHoursLine": "Mon-Sun: 10:00 AM - 8:00 PM",
+
     "phone1": "Phone number 1:",
     "phone2": "Phone number 2:",
     "callButton": "📞 Call",
     "addressTitle": "Our address: Mukachevo, Voz'yednannya St. 17 \n Melisa store, 2nd floor",
     "getDirections": "📍 Get Directions"
+  },
+  "career": {
+    "title": "Join Our Team",
+    "description1": "Are you passionate about working with children ? At Happy Kids, we’re always looking for enthusiastic individuals to join our team.",
+    "description2": "Whether you already have the relevant qualifications or are currently studying, we welcome applicants who are committed to providing high-quality, nurturing, and inspiring care. Joining our team means becoming part of a supportive and professional environment where your skills are valued, and your career can grow.",
+
+    "description3": "To apply or find out more, contact us via email at happy.kids.2017.mukachevo@gmail.com.",
+    "form": {
+      "name": "Name",
+      "contactNumber": "Contact Number",
+      "optional": "Optional",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "sendButton": "Send Message"
+    }
   }
 }

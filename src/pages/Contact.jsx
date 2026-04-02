@@ -37,8 +37,7 @@ export default function ContactUs() {
                   {t("contact.workHoursTitle")}
                 </h3>
               </div>
-              <p className={css.workHoursLine}>{t("contact.workHoursLine1")}</p>
-              <p className={css.workHoursLine}>{t("contact.workHoursLine2")}</p>
+              <p className={css.workHoursLine}>{t("contact.workHoursLine")}</p>
             </div>
             <div className={css.phoneCard}>
               <div className={css.phoneSection}>
