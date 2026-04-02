@@ -1,7 +1,7 @@
 import css from "./Home.module.css";
 import { useTranslation } from "react-i18next";
 
-import happyKids from "../assets/images/happyKids.png";
+import happyKids from "../assets/images/happyKids2.png";
 export default function Home() {
   const { t } = useTranslation();
   return (
