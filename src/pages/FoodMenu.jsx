@@ -9,7 +9,7 @@ export default function FoodMenu() {
   const { t } = useTranslation();
   return (
     <div className={css.foodMenuContainer}>
-      <h1 className={css.title}>{t("foodMenu.title")}</h1>
+      <h1 className={css.titleMenu}>{t("foodMenu.title")}</h1>
       <p className={css.description}>{t("foodMenu.description")}</p>
       <div className={css.menuItems}>
         <div className={css.menuItem}>

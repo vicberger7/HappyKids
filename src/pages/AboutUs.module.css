@@ -11,15 +11,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   width: 50%;
   height: 30%;
   border-radius: 50%;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   text-align: center;
   padding: 20px;
 
@@ -41,12 +41,11 @@
   object-fit: cover;
   border-radius: 10px;
 
-   box-shadow: 
+  box-shadow:
     0 0 10px #fff,
     0 0 20px rgb(255, 255, 255),
     0 0 40px rgb(255, 255, 255),
     0 0 80px rgb(255, 255, 255);
-
 }
 
 /* Scatter positions */
@@ -92,11 +91,10 @@
 
 .img8 {
   top: 12%;
-  left:12%;
+  left: 12%;
 }
 
 .img9 {
   top: 12%;
-  right:12%;
+  right: 12%;
 }
-
