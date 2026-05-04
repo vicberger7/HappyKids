@@ -6,7 +6,6 @@ import happyKids from "../assets/images/happyKids2.png";
 import happyKidsMobile from "../assets/images/happyKidsMobile.png";
 export default function Home() {
   const { t } = useTranslation();
-  // const isMobile = window.innerWidth >= 350 && window.innerWidth <= 425;
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 425);
 
   useEffect(() => {
