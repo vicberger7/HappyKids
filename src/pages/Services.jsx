@@ -21,13 +21,12 @@ export default function Services() {
     <div className={css.servicesContainer}>
       <div className={css.cards}>
         {services.map((service, index) => {
-          // Split the first sentence as title, rest as description
           const [firstSentence, ...restSentences] = service.text.split(".");
           const description =
             restSentences
               .map((s) => s.trim())
-              .filter(Boolean) // remove empty strings
-              .join(". ") + (restSentences.length ? "." : ""); // re-add dot at end if there was more text
+              .filter(Boolean) 
+              .join(". ") + (restSentences.length ? "." : ""); 
 
           return (
             <div className={css.card} key={index}>

@@ -28,7 +28,7 @@ export default function AboutUs() {
 
   return (
     <div className={css.aboutContainer}>
-      <div className={css.circle}>
+      <div className={css.textContainer}>
         <p className={css.description}>{t("aboutUs.description")}</p>
       </div>
       {images.map((src, i) => (

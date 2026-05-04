@@ -9,11 +9,18 @@
   overflow-y: auto;
 }
 
+
 .cards {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   width: 100%;
+}
+
+@media (max-width: 425px) {
+  .cards {
+    margin-top: 70px;
+  }
 }
 
 .card {
@@ -26,12 +33,26 @@
   width: 100%;
 }
 
+@media (max-width: 425px) {
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 .imgWrapper {
   position: relative;
   width: 90%;
   height: 520px;
   border-radius: 16px 0 0 16px;
   overflow: hidden;
+}
+@media (max-width: 425px) {
+  .imgWrapper {
+    width: 90%;
+    height: auto;
+    border-radius: 16px ;
+  }
 }
 
 .imgWrapper img {
@@ -41,7 +62,12 @@
   display: block;
 }
 
-/* White fade on right edge */
+@media (max-width: 425px) {
+  .imgWrapper {
+   margin-top: 5px;
+  }
+}
+
 .imgWrapper::after {
   content: "";
   position: absolute;
@@ -51,6 +77,12 @@
   height: 100%;
   background: linear-gradient(to right, rgba(255,255,255,0), white);
   pointer-events: none;
+}
+
+@media (max-width: 425px) {
+  .imgWrapper::after {
+    background: none;
+  }
 }
 
 .card h2 {
@@ -65,10 +97,22 @@
   margin-bottom: 1rem;
 }
 
+@media (max-width: 425px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
 .desc {
   display: block;
   margin-top: 8px;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.4;
+}
+
+@media (max-width: 425px) {
+  .desc {
+    font-size: 1.2rem;
+  }
 }

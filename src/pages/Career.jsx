@@ -68,7 +68,7 @@ export default function Career() {
             />
           </label>
           <label className={css.message}>
-            <input
+            <textarea
               type="text"
               name="message"
               placeholder={t("career.form.message")}

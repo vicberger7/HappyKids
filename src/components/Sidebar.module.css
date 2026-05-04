@@ -7,7 +7,13 @@
   background-color: gray;
   color: #fff;
   padding: 40px 20px;
-  font-size: 3rem;
+  font-size: 3rem; 
+}
+
+@media screen and (min-width: 350px) and (max-width: 430px) {
+  .menu {
+    display: none;
+  }
 }
 
 .logo {
@@ -53,7 +59,7 @@ margin: 0;
 }
 
 .navLinks li a:hover::after {
-  width: 100%;                 /* expand underline on hover */
+  width: 100%;               
 }
 
 

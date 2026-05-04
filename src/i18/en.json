@@ -10,6 +10,7 @@
   },
   "home": {
     "welcome": "Welcome to Happy Kids!",
+    "welcomeMobile": "Welcome<0/>to<0/>Happy Kids!",
     "description": "We offer the best services for your children, including education, fun and healthy eating."
   },
   "aboutUs": {

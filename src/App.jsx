@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
+import MobileHeader from "./components/MobileHeader";
 import css from "./App.module.css";
 
 import Home from "./pages/Home";
@@ -13,6 +14,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className={css.app}>
+      <MobileHeader />
       <Sidebar />
 
       <div className={css.content}>

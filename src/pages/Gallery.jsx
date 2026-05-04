@@ -24,7 +24,7 @@ export default function Gallery() {
     <div className={css.galleryContainer}>
       <Swiper
         modules={[Pagination, Navigation]}
-        loop={true} // infinite loop
+        loop={true} 
         pagination={{ clickable: true }}
         navigation
         speed={500}

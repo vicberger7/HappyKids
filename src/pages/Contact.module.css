@@ -22,7 +22,9 @@
 @media screen and (min-width: 350px) and (max-width: 430px) {
   .contactUsData {
     flex-direction: column;
-    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 95px;
   }
 }
 
@@ -37,6 +39,8 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+
+  
 }
 
 @media screen and (min-width: 350px) and (max-width: 430px) {
@@ -71,6 +75,13 @@
   color: #0077ff;
   text-decoration: none;
   transition: color 0.2s ease;
+}
+
+@media (max-width: 425px) {
+  .mail {
+  overflow-wrap: break-word;
+    font-size: 1.3rem;
+  }
 }
 
 .mail:hover {
