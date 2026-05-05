@@ -3,7 +3,7 @@ import css from "./Home.module.css";
 import { useTranslation, Trans } from "react-i18next";
 
 import happyKids from "../assets/images/happyKids2.png";
-import happyKidsMobile from "../assets/images/happyKidsMobile.png";
+import happyKidsMobile from "../assets/images/HappyKidsMobile.png";
 export default function Home() {
   const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 425);
