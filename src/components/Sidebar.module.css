@@ -41,7 +41,7 @@ margin: 0;
   display: inline-block;
   padding-bottom: 3px;
   margin-bottom: 5px;   
-  transition: transform 0.5s ease;    
+  transition: transform 0.5s ease;   
 }
 .navLinks li a:hover {
   transform: scale(1.2);
@@ -74,7 +74,7 @@ margin: 0;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
-  margin-top: 30%;
+  margin-top: 15%;
 }
 .langToggle:hover {
   background-color: darkorange;
@@ -86,6 +86,7 @@ margin: 0;
   display: block;
   margin: 10px 0;
   transition: color 0.3s ease;
+   font-size: 3rem;
 }
 
 .red { color: red; }
@@ -95,3 +96,20 @@ margin: 0;
 .lightblue { color: lightblue; }
 .blue { color:blue; }
 .indigo { color: indigo; }
+
+.socials {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-left: 70%;
+}
+
+.socials a {
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}

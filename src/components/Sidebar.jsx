@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import css from "./Sidebar.module.css";
 import logo from "../assets/images/HappyKidsLogo.png";
 import { useTranslation } from "react-i18next";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Sidebar() {
   const { t, i18n } = useTranslation();
@@ -101,6 +102,23 @@ export default function Sidebar() {
       <button onClick={toggleLang} className={css.langToggle}>
         {i18n.language === "ua" ? "EN" : "UA"}
       </button>
+      <div className={css.socials}>
+        <a
+          href="https://www.facebook.com/happy.kids.980967"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook />
+        </a>
+
+        <a
+          href="https://www.instagram.com/happy.kids_2017?igsh=ZzR6eWg3bHZjbDEz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
+      </div>
     </div>
   );
 }
