@@ -44,7 +44,7 @@
 .socials {
   position: absolute;
   right: 25%;
-    transform: translateY(10%);
+  transform: translateY(10%);
   display: flex;
   gap: 20px;
   font-size: 2rem;
