@@ -39,8 +39,6 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-
-  
 }
 
 @media screen and (min-width: 350px) and (max-width: 430px) {
@@ -61,13 +59,19 @@
   margin-bottom: 1rem;
 }
 
-.mailText {
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 375px) {
+  .mailIcon {
+    gap: 0.5rem;
+  }
 }
-
 .mailLine {
+ white-space: nowrap;
   margin: 0;
+}
+@media screen and (max-width: 375px) {
+  .mailLine {
+    font-size: 1.3rem;
+  }
 }
 .mail {
   position: relative;
@@ -79,8 +83,7 @@
 
 @media (max-width: 425px) {
   .mail {
-  overflow-wrap: break-word;
-    font-size: 1.3rem;
+  font-size: 1.2rem;
   }
 }
 
