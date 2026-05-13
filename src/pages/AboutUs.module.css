@@ -143,16 +143,16 @@ body {
 @media (max-width: 425px) {
   .img4 {
     top: 12%;
-    left: 20%;
+    left: 3%;
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .img4 {
     top: 11%;
-    left: 20%;
+    left: 3%;
   }
-}
+} */
 
 .img5 {
   top: 5%;
@@ -162,16 +162,16 @@ body {
 @media (max-width: 425px) {
   .img5 {
     top: 12%;
-    right: 20%;
+    right: 3%;
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .img5 {
     top: 11%;
     right: 20%;
   }
-}
+} */
 
 .img6 {
   bottom: 12%;
@@ -205,7 +205,7 @@ body {
 
 @media (max-width: 425px) {
   .img8 {
-    top: 25%;
+    top: 27%;
     left: 3%;
   }
 }
@@ -217,7 +217,7 @@ body {
 
 @media (max-width: 425px) {
   .img9 {
-    top: 25%;
+    top: 27%;
     right: 3%;
   }
 }
