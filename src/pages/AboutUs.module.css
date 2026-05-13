@@ -41,6 +41,19 @@ body {
   }
 }
 
+@media (max-width: 370px) {
+  .textContainer {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 356px) {
+  .textContainer {
+    margin-top: 70px;
+  }
+}
+
+
 .description {
   font-size: 2rem;
   font-weight: bold;
