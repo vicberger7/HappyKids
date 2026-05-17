@@ -62,14 +62,35 @@ export default function MobileHeader() {
             ✕
           </button>
         </div>
+
         <nav>
-          <a href="/">{t("nav.home")}</a>
-          <a href="/about">{t("nav.about")}</a>
-          <a href="/services">{t("nav.services")}</a>
-          <a href="/food-menu">{t("nav.food-menu")}</a>
-          <a href="/gallery">{t("nav.gallery")}</a>
-          <a href="/career">{t("nav.career")}</a>
-          <a href="/contact">{t("nav.contact")}</a>
+          <NavLink to="/" onClick={() => setOpen(false)}>
+            {t("nav.home")}
+          </NavLink>
+
+          <NavLink to="/about" onClick={() => setOpen(false)}>
+            {t("nav.about")}
+          </NavLink>
+
+          <NavLink to="/services" onClick={() => setOpen(false)}>
+            {t("nav.services")}
+          </NavLink>
+
+          <NavLink to="/food-menu" onClick={() => setOpen(false)}>
+            {t("nav.food-menu")}
+          </NavLink>
+
+          <NavLink to="/gallery" onClick={() => setOpen(false)}>
+            {t("nav.gallery")}
+          </NavLink>
+
+          <NavLink to="/career" onClick={() => setOpen(false)}>
+            {t("nav.career")}
+          </NavLink>
+
+          <NavLink to="/contact" onClick={() => setOpen(false)}>
+            {t("nav.contact")}
+          </NavLink>
         </nav>
       </div>
     </>
